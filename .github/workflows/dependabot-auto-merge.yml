@@ -1,9 +1,9 @@
+---
 name: Dependabot auto-merge
 
 on:
   pull_request:
     types: [opened, synchronize]
-
 permissions:
   pull-requests: write
 
@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     if: github.actor == 'dependabot[bot]'
     steps:
-    - name: Merge Dependabot PR
-      run: gh pr merge --auto --merge "${{ github.event.pull_request.html_url }}"
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Merge Dependabot PR
+        run: gh pr merge --auto --merge "${{ github.event.pull_request.html_url }}"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
