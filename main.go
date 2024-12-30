@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/xorcare/pointer"
+)
 
 func main() {
-	fmt.Println("Hello")
+	fmt.Println("Hello", pointer.Bool(true))
 }
