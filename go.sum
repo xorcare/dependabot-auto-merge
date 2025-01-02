@@ -1,4 +1,4 @@
 github.com/google/uuid v1.0.0 h1:b4Gk+7WdP/d3HZH8EJsZpvV7EtDOgaZLtnaNGIu1adA=
 github.com/google/uuid v1.0.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
-github.com/xorcare/pointer v1.1.0 h1:sFwXOhRF8QZ0tyVZrtxWGIoVZNEmRzBCaFWdONPQIUM=
-github.com/xorcare/pointer v1.1.0/go.mod h1:6KLhkOh6YbuvZkT4YbxIbR/wzLBjyMxOiNzZhJTor2Y=
+github.com/xorcare/pointer v1.2.2 h1:zjD77b5DTehClND4MK+9dDE0DcpFIZisAJ/+yVJvKYA=
+github.com/xorcare/pointer v1.2.2/go.mod h1:azsKh7oVwYB7C1o8P284fG8MvtErX/F5/dqXiaj71ak=
